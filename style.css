@@ -1,0 +1,327 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: .5;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: .5px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+a:hover {
+    text-shadow: 0 0 0.12 hsla(193, 100%, 79%, 0.5), 0 0 0.45 rgb(160, 222, 255);
+    color: rgb(160, 222, 255);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 8vh;
+}
+
+header {
+    background: url(source/MainBackground1.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    width: 30%;
+    height: 75px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar li {
+    letter-spacing: 3px;
+    margin: 40px;
+    font-weight: 500;
+    height: 5px;
+    line-height: 5;
+}
+
+.FuturoProximo {
+    color:white;
+    position: relative;
+    top: 200px;
+    left: 210px;
+    font-size: 3.5em;
+}
+
+.FuturoProximo .futurocor {
+    color: #71BDFF;
+}
+
+.wbookEspera {
+    color:white;
+    position: relative;
+    top: 220px;
+    left: 210px;
+    font-size: 2em;
+}
+
+.wbookBtn {
+    color: white;
+    outline: transparent;
+    border: transparent;
+    background-color: #71BDFF;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.5em;
+    position: relative;
+    top: 250px;
+    left: 210px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s
+}
+
+.wbookBtn:hover {
+    background-color: transparent;
+    outline: 2px solid #71BDFF;
+    cursor: pointer;
+}
+
+#devsoftware {
+    position: relative;
+    top: 420px;
+    left: 200px;
+}
+
+#webbasedbook {
+    position: relative;
+    top: 420px;
+    left: 250px;
+}
+
+#ianegocios {
+    position: relative;
+    top: 420px;
+    left: 300px;
+}
+
+/* WBOOK */
+
+#wbookTitle {
+    color:#71BDFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 2em;
+    top: 240px;
+    left: 900px;
+}
+
+#infowBook {
+    position: relative;
+    font-size: 3em;
+    top: 240px;
+    left: 900px;
+}
+
+#description {
+    position: relative;
+    top: 260px;
+    left: 900px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.wbookBtn2 {
+    color: white;
+    outline: transparent;
+    border: transparent;
+    background-color: #71BDFF;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.5em;
+    position: relative;
+    top: 280px;
+    left: 900px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s
+}
+
+.wbookBtn2:hover {
+	transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* SOBRE NÓS */
+
+.about-us {
+    width: 1920px;
+    height: 897px;
+    background-color: #F6F5FF;
+    position: absolute;
+    top: 1800px;
+}
+
+.sobre-nos {
+    width: 1269px;
+    height: 636px;
+    background-color: white;
+    position: absolute;
+    right: 370px;
+    top: 131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-nos h2 {
+    color: #71BDFF;
+    font-size: 2.5em;
+    position: absolute;
+    top: 40px;
+}
+
+.Info {
+    font-family: sans-serif;
+
+}
+
+#Fernanda {
+    position: absolute;
+    left: 361px;
+    top: 161px;
+    border-radius: 100px;
+}
+
+#Rafael {
+    position: absolute;
+    left: 731px;
+    top: 161px;
+    border-radius: 100px;
+}
+
+#RafaelLabel {
+    position: absolute;
+    left: 760px;
+    top: 400px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#RafaelRole {
+    position: absolute;
+    left: 825px;
+    top: 430px;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+#RafaelLinkedin {
+    color: #71BDFF;
+    position: absolute;
+    left: 805px;
+    top: 460px;
+    font-size: 3em;
+}
+
+#FernandaRole {
+    position: absolute;
+    left: 445px;
+    top: 430px;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+#FernandaLabel {
+    position: absolute;
+    left: 380px;
+    top: 400px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#FernandaLinkedin {
+    color: #71BDFF;
+    position: absolute;
+    left: 431px;
+    top: 460px;
+    font-size: 3em;
+}
+
+#FernandaLinkedin:hover,
+#RafaelLinkedin:hover {
+	transform: scale(1.15);
+    cursor: pointer;
+}
+
+/* MI5 INFO */
+
+.Mi5Info {
+    position: absolute;
+    top: 2697px;
+}
+
+#logo2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 23px;
+    left: 633px;
+}
+
+#numero {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 630px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#copyright {
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 545px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#rua {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 960px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#cidade {
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 960px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#cnpj {
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 960px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
